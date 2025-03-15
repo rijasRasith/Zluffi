@@ -1,0 +1,16 @@
+name = "zluffi"
+compatibility_date = "2023-01-01"
+
+# Add this line to fix the warning
+main = "src/index.js"
+
+[site]
+bucket = "./public"
+
+[build]
+command = "npm run build"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "zluffi-production"
+database_id = "607c3034-43fe-499b-be4a-be6b1df19aa6"
